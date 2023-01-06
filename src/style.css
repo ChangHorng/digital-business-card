@@ -2,6 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer base {
+    body {
+        @apply font-inter mx-auto my-auto w-[317px];
+    }
+}
+
 /* body {
     font-family: Inter;
     margin: auto auto;
