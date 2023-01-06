@@ -6,7 +6,7 @@ import Footer from "./components/Footer"
 
 export default function App() {
   return (
-    <div className="app">
+    <div className="rounded-[10px] bg-[#1A1B21]">
       <Info />
       <About />
       <Interest />
